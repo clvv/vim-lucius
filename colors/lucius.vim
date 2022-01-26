@@ -756,13 +756,16 @@ hi link VimwikiHeader6 BType
 
 " CoC:
 hi link CocErrorSign ErrorMsg
-hi link CocErrorFloat Pmenu
 hi link CocWarningSign WarningMsg
-hi link CocWarningFloat Pmenu
 hi link CocInfoSign MoreMsg
-hi link CocInfoFloat Pmenu
-hi link CocHintFloat Directory
-hi link CocHintFloat Pmenu
+hi link CocFloating PmenuThumb
+
+" ============================================================================
+" Neovim Enhancements:
+" ============================================================================
+
+" Neovim Float:
+hi link NormalFloat PmenuThumb
 
 " ============================================================================
 " Preset Commands:
